@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Planning: Global Medical Team Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .kpi-value {
+            font-weight: 900;
+            color: #005f73;
+        }
+        .kpi-label {
+            color: #0a9396;
+        }
+        .flow-arrow {
+            font-size: 2rem;
+            color: #ee9b00;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#005f73] mb-2">Seed Planning Global Medical Team</h1>
+            <p class="text-xl text-[#0a9396]">Elevating Insights, Delivering Results in the Japanese Healthcare Market</p>
+        </header>
+
+        <section id="kpis" class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <p class="text-5xl md:text-6xl kpi-value">40+</p>
+                        <p class="text-lg kpi-label">Years of Industry Experience</p>
+                    </div>
+                    <div>
+                        <p class="text-5xl md:text-6xl kpi-value">40+</p>
+                        <p class="text-lg kpi-label">Global Projects Annually</p>
+                    </div>
+                    <div>
+                        <p class="text-5xl md:text-6xl kpi-value">300+</p>
+                        <p class="text-lg kpi-label">Qualitative Interviews Per Year</p>
+                    </div>
+                </div>
+                <p class="mt-8 text-center text-gray-600">Since our dedicated Global Medical Team was launched in 2020, we have consistently delivered high-volume, high-value research for the world's leading pharmaceutical and healthcare organizations, building on decades of proven experience.</p>
+            </div>
+        </section>
+
+        <section id="reach" class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-center mb-2 text-[#005f73]">Our Unmatched Reach in Japan</h2>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">Our key advantage lies in our proprietary, extensive network of healthcare professionals and patients across Japan. This allows us to access insights that are unavailable to others, providing a true competitive edge for our clients.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-sky-50 p-6 rounded-lg text-center border-l-4 border-[#005f73] shadow-sm">
+                        <p class="text-5xl mb-4">👨‍⚕️</p>
+                        <h3 class="text-xl font-bold text-[#005f73]">Largest Physician & HCP Panel</h3>
+                    </div>
+                    <div class="bg-cyan-50 p-6 rounded-lg text-center border-l-4 border-[#0a9396] shadow-sm">
+                        <p class="text-5xl mb-4">👥</p>
+                        <h3 class="text-xl font-bold text-[#0a9396]">Widest Consumer & Patient Panels</h3>
+                    </div>
+                    <div class="bg-teal-50 p-6 rounded-lg text-center border-l-4 border-[#94d2bd] shadow-sm">
+                        <p class="text-5xl mb-4">🎯</p>
+                        <h3 class="text-xl font-bold text-[#94d2bd]">Hard-to-Reach Segments</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partnership" class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-center mb-2 text-[#005f73]">The SEED × LAMPS Partnership</h2>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">"No matter how brilliant the moderation or how rich the insights, the true value is only realized when interpretation captures every nuance." This belief is the foundation of our unique alliance with LAMPS, uniting world-class research with world-class interpretation.</p>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                    <div class="text-center p-4 border-2 border-[#94d2bd] rounded-lg">
+                        <p class="font-bold text-lg text-[#0a9396]">Client Need</p>
+                        <p class="text-sm">Global research objective</p>
+                    </div>
+                    <div class="flow-arrow transform md:-rotate-0">➔</div>
+                    <div class="text-center p-4 border-2 border-[#94d2bd] rounded-lg">
+                        <p class="font-bold text-lg text-[#0a9396]">Seed Planning Research</p>
+                        <p class="text-sm">Expert moderation & analysis</p>
+                    </div>
+                    <div class="flow-arrow transform md:-rotate-0">➔</div>
+                    <div class="text-center p-4 border-2 border-[#ee9b00] rounded-lg bg-[#fffbeb]">
+                        <p class="font-bold text-lg text-[#ca6702]">LAMPS Interpretation</p>
+                        <p class="text-sm">Nuanced cultural & medical translation</p>
+                    </div>
+                     <div class="flow-arrow transform md:-rotate-0">➔</div>
+                    <div class="text-center p-4 border-2 border-[#005f73] rounded-lg bg-[#f0f9ff]">
+                        <p class="font-bold text-lg text-[#005f73]">Actionable Insight</p>
+                        <p class="text-sm">Faithfully conveyed results</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="values" class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-center mb-8 text-[#005f73]">Our Core Values in Action</h2>
+                 <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">Our values are not just words; they are the principles that guide every project and interaction, ensuring we act with empathy, think with cultural awareness, and work in global partnership.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-4">
+                        <p class="text-4xl mb-2">🤝</p>
+                        <h3 class="text-xl font-bold text-[#0a9396] mb-2">Empathy & Integrity</h3>
+                        <p class="text-gray-600">We connect with the experiences of physicians and patients, ensuring our research is ethically grounded and deeply human.</p>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-4xl mb-2">🌐</p>
+                        <h3 class="text-xl font-bold text-[#0a9396] mb-2">Cultural Understanding</h3>
+                        <p class="text-gray-600">We bridge the gap between global objectives and the unique nuances of the Japanese medical landscape.</p>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-4xl mb-2">✨</p>
+                        <h3 class="text-xl font-bold text-[#0a9396] mb-2">Collaborative Excellence</h3>
+                        <p class="text-gray-600">We work as a seamless extension of our clients' teams, fostering partnerships built on trust and shared success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
+            <section id="growth">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 h-full">
+                    <h2 class="text-3xl font-bold text-center mb-2 text-[#005f73]">Annual Project Growth</h2>
+                    <p class="text-center text-gray-600 mb-8">Since 2020, our team has demonstrated consistent growth in successfully executed global projects, reflecting increasing client trust and demand.</p>
+                    <div class="chart-container">
+                        <canvas id="growthChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <section id="team">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 h-full">
+                    <h2 class="text-3xl font-bold text-center mb-2 text-[#005f73]">Our Team's Expertise</h2>
+                    <p class="text-center text-gray-600 mb-8">Our strength comes from a diverse, fully bilingual team that blends deep medical knowledge with expert research and project management skills.</p>
+                    <div class="chart-container">
+                        <canvas id="teamChart"></canvas>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="text-center text-gray-500 pt-8">
+            <p>Seed Planning, Inc. | Medical Business Unit</p>
+            <p>Connecting global healthcare innovation with the unique insights of the Japanese medical landscape.</p>
+            <p class="mt-2 text-sm"><a href="mailto:medb3@seedplanning.co.jp" class="text-[#005f73] hover:underline">medb3@seedplanning.co.jp</a> | <a href="https://www.seedplanning.co.jp/global/" target="_blank" class="text-[#005f73] hover:underline">seedplanning.co.jp/global/</a></p>
+        </footer>
+
+    </div>
+
+    <script>
+        const brilliantBlues = ['#005f73', '#0a9396', '#94d2bd', '#ee9b00', '#ca6702', '#bb3e03'];
+
+        function wrapLabel(label, maxWidth) {
+            const words = label.split(' ');
+            let lines = [];
+            let currentLine = words[0] || '';
+
+            for (let i = 1; i < words.length; i++) {
+                if ((currentLine + ' ' + words[i]).length > maxWidth) {
+                    lines.push(currentLine);
+                    currentLine = words[i];
+                } else {
+                    currentLine += ' ' + words[i];
+                }
+            }
+            lines.push(currentLine);
+            return lines;
+        }
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+        
+        const sharedChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        font: { size: 14 }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        font: { size: 12 }
+                    }
+                },
+                x: {
+                    ticks: {
+                        font: { size: 12 }
+                    }
+                }
+            }
+        };
+
+        const growthCtx = document.getElementById('growthChart').getContext('2d');
+        new Chart(growthCtx, {
+            type: 'line',
+            data: {
+                labels: ['2020', '2021', '2022', '2023', '2024'],
+                datasets: [{
+                    label: 'Global Projects Completed',
+                    data: [25, 32, 38, 42, 45],
+                    fill: true,
+                    backgroundColor: 'rgba(10, 147, 150, 0.2)',
+                    borderColor: '#0a9396',
+                    tension: 0.3
+                }]
+            },
+            options: { ...sharedChartOptions }
+        });
+
+        const teamCtx = document.getElementById('teamChart').getContext('2d');
+        new Chart(teamCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Research Analysts / Moderators', 'Project Coordinators', 'RNs & Medical Specialists'],
+                datasets: [{
+                    label: 'Team Composition',
+                    data: [45, 35, 20],
+                    backgroundColor: ['#005f73', '#94d2bd', '#ee9b00'],
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            font: { size: 14 },
+                            generateLabels: function(chart) {
+                                const data = chart.data;
+                                if (data.labels.length && data.datasets.length) {
+                                    return data.labels.map(function(label, i) {
+                                        const meta = chart.getDatasetMeta(0);
+                                        const style = meta.controller.getStyle(i);
+                                        return {
+                                            text: wrapLabel(label, 20).join('\n'),
+                                            fillStyle: style.backgroundColor,
+                                            strokeStyle: style.borderColor,
+                                            lineWidth: style.borderWidth,
+                                            hidden: isNaN(data.datasets[0].data[i]) || meta.data[i].hidden,
+                                            index: i
+                                        };
+                                    });
+                                }
+                                return [];
+                            }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
